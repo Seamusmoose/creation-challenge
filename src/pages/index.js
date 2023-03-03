@@ -65,13 +65,6 @@ export default function Home() {
       </Head>
       <Layout>
         <>
-          {/* <div className="block">
-            {selectedImages.length !== 2 && (
-              <div>
-                <h1 className="button">Please select 2 images</h1>
-              </div>
-            )}
-          </div> */}
           {!toggleAiRendered && (
             <>
               <div className="block">
@@ -117,14 +110,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                {/* {selectedImages.length === 0 ? (
-                  <div className="grid none">
-                    <div className="gallery">
-                      <h1>Gallery</h1>
-                      <p>Please select 2 images</p>
-                    </div>
-                  </div>
-                ) : null} */}
                 <div className="container">
                   <div className="even-columns">
                     {selectedImages.map((image) => {

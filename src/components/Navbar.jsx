@@ -8,7 +8,12 @@ const Navbar = () => {
       <Image src={Logo} height={100} width={100} alt="logo" />
       <ul className="nav">
         <li>
-          <Link href={"https://www.creaition.io/"}>HomePage</Link>
+          <Link
+            style={{ textDecoration: "none" }}
+            href={"https://www.creaition.io/"}
+          >
+            HomePage
+          </Link>
         </li>
       </ul>
     </div>

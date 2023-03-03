@@ -9,7 +9,7 @@ const Navbar = () => {
       <ul className="nav">
         <li>
           <Link
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none", color: "black" }}
             href={"https://www.creaition.io/"}
           >
             HomePage

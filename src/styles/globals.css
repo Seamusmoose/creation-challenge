@@ -144,6 +144,8 @@ li {
   border-radius: 1000px;
   background-color: transparent;
   color: black;
+  list-style: none;
+  text-decoration: none;
 }
 
 .button:hover {

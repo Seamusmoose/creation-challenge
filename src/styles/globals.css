@@ -140,10 +140,15 @@ li {
 .button {
   height: 30px;
   width: 180px;
-  border: none;
+  border: 1px solid black;
   border-radius: 1000px;
   background-color: transparent;
   color: black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
 }
 
 .block {

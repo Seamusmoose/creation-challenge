@@ -7,14 +7,9 @@ const Navbar = () => {
     <div className="flex space-bt">
       <Image src={Logo} height={100} width={100} alt="logo" />
       <ul className="nav">
-        <li>
-          <Link
-            style={{ textDecoration: "none", color: "black" }}
-            href={"https://www.creaition.io/"}
-          >
-            HomePage
-          </Link>
-        </li>
+        <Link href={"https://www.creaition.io/"}>
+          <li className="button grid">HomePage</li>
+        </Link>
       </ul>
     </div>
   );

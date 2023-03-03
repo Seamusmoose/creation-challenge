@@ -82,7 +82,7 @@ export default function Home() {
                 )}
                 {selectedImages.length !== 2 && (
                   <div className="grid">
-                    <button className="button">Please select 2 images</button>
+                    <button className="button">Select 2 images</button>
                   </div>
                 )}
               </div>
